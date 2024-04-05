@@ -1,9 +1,8 @@
- /* admin.css */
+/* admin.css */
 body {
     background-color: #484c4d; /* Light grey background */
     color: #ffcd31; /* Golden text color for contrast */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style:italic;
 }
 
 h1 {

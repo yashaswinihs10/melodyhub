@@ -28,10 +28,10 @@ function createOrder() {
         .done(function(order) {
             order = JSON.parse(order);
             var options = {
-                "key": "rzp_test_bhw6lPnNlPlOvW",
+                "key": "rzp_test_XmwnchQOeOtvgY",
                 "amount": order.amount_due.toString(),
                 "currency": "INR",
-                "name": "Melody Hub",
+                "name": "Tune Hub",
                 "description": "Test Transaction",
                 "order_id": order.id,
                 "handler": function (response) {

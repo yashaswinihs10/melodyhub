@@ -15,6 +15,8 @@ import com.example.demo.entities.Users;
 import com.example.demo.services.SongsService;
 import com.example.demo.services.UsersService;
 
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
@@ -84,6 +86,19 @@ public class UsersController
 				return "payment";
 			}
 	}
+	
+	@GetMapping("/logout")
+	public String logout(HttpServletRequest request , HttpServletResponse response)
+	{
+		HttpSession session=request.getSession(false);
+		if(session!=null)
+			{
+			session.invalidate();
+			return "index";
+	        }
+		return "index";
+	}
+	
 }
 
 

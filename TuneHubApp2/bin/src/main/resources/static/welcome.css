@@ -3,11 +3,6 @@ body {
     background-color: #383838; /* Dark grey background */
     color: #ffcd31; /* Golden text color for contrast */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     justify-content:center;
-     background-image: url('/tunehub.jpg');
-   height: 100%;
-   Width: 100%;
-   display:flex;
 }
 
 .container {
@@ -17,10 +12,7 @@ body {
     background-color: #484c4d; /* Slightly lighter grey for the container */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #ff80c0; /* Orange text color */
-    justify-content:center;
-    font-family:italic;
-   
+    color: #ff7e26; /* Orange text color */
 }
 
 a, input[type=submit] {
@@ -33,7 +25,7 @@ a, input[type=submit] {
 }
 
 a:hover, input[type=submit]:hover {
-    background-color: pink; /* Orange background on hover */
+    background-color: #ff7e26; /* Orange background on hover */
 }
 
 form {
@@ -54,8 +46,4 @@ input[type=email], input[type=password], input[type=text], textarea {
 
 input[type=radio] {
     margin: 0 5px;
-}
-img{
-	height: 100%;
-	width: 100%;
 }
